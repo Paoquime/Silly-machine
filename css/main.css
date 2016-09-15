@@ -1,0 +1,44 @@
+div {
+	margin-left: 190px;
+	overflow: auto;
+}
+
+.favourite {
+   width: 250px;
+   height: 250px;
+   -moz-border-radius: 50%;
+   -webkit-border-radius: 50%;
+   border-radius: 50%;
+   position: relative;
+   margin-left: 20px;
+   margin-top: 100px;
+   float:left;
+   border: solid 5px #000;
+}
+
+.blue {
+	background-color: #E61E1E;
+}
+
+.green {
+	background-color: #3CEE33;
+}
+
+.yellow {
+	background-color: #F7F52B;
+}
+
+input {
+	margin-top: 60px;
+    margin-left: 520px;
+}
+
+.cri {
+	margin-left: 580px;
+	background-color: rgba(95, 174, 400, 0.6);
+}
+
+.superCri {
+	margin-left: 560px;
+	background-color: rgba(95, 174, 400, 0.6);
+}
