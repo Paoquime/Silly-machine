@@ -6,4 +6,6 @@
 
 **CRI**
 
-1. En este caso se asignara un color al borde cada circulo, 
+1. En este caso se asignara un color al borde del primer circulo, que cambiara de sitio (hacia el siguiente circulo) cuando haga click en el boton CRI.
+
+2. En este segundo caso el usuario escribira el nombre del color del circulo donde quiere que tenga un borde resaltado y dara click en el boton SUPER CRI, di quiere que otro circulo tenga el borde resaltado escribira su nombre tambien.
