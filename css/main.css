@@ -1,3 +1,9 @@
+body {
+   background-image: url("../image/fondop.jpg");
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+
 div {
 	margin-left: 190px;
 	overflow: auto;
@@ -16,21 +22,22 @@ div {
    border: solid 5px #000;
 }
 
-.blue {
+#red {
 	background-color: #E61E1E;
 }
 
-.green {
+#green {
 	background-color: #3CEE33;
 }
 
-.yellow {
+#yellow {
 	background-color: #F7F52B;
 }
 
 input {
 	margin-top: 60px;
-    margin-left: 520px;
+   margin-left: 520px;
+   text-align: center;
 }
 
 .cri {
@@ -38,7 +45,11 @@ input {
 	background-color: rgba(95, 174, 400, 0.6);
 }
 
-.superCri {
+#superCri {
 	margin-left: 560px;
 	background-color: rgba(95, 174, 400, 0.6);
+}
+
+.border {
+   border: 5px solid orange;
 }

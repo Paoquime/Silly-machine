@@ -32,3 +32,28 @@ window.addEventListener("load", function() {
   });
 
 
+ window.addEventListener("load", function() {
+    var superC = document.getElementById("superCri");
+    superC.addEventListener("click", function() { 
+    var color = document.getElementById("color").value;
+
+    if(color == "red"){
+      document.getElementById("red").classList.add("border");
+      document.getElementById("green").classList.remove("border");
+      document.getElementById("yellow").classList.remove("border");
+    } 
+      else if(color == "green"){
+      document.getElementById("green").classList.toggle("border");
+      document.getElementById("red").classList.remove("border");
+      document.getElementById("yellow").classList.remove("border");
+    }
+      else if(color == "yellow"){
+      document.getElementById("yellow").classList.toggle("border");
+      document.getElementById("green").classList.remove("border");
+      document.getElementById("red").classList.remove("border");
+    }
+
+});
+  });
+
+
